@@ -1,0 +1,14 @@
+config.toml
+config_back/
+*.backup.*
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+.env
+.env.*
+data/
+*.log
+*.zip

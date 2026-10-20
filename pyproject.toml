@@ -1,0 +1,15 @@
+[project]
+name = "maibot-steam-browser-plugin"
+version = "0.1.4"
+description = "Steam store, reviews and public player library tools for MaiBot"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28.1,<1", "maibot-plugin-sdk>=2.12.0,<3"]
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-asyncio>=0.24", "ruff>=0.12.2"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
